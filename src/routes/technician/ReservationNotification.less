@@ -1,0 +1,301 @@
+.my-accordion .pad .am-accordion-content-box {
+  padding: 10px;
+}
+
+.am-accordion {
+  border-top: 0
+}
+
+.am-accordion .am-accordion-item .am-accordion-content {
+  margin: 0 0.22rem 0
+}
+
+.my-accordion .am-flexbox {
+  padding: 0
+}
+
+.sort {
+  background-color: rgb(255, 255, 255);
+  height: 0.8rem;
+  width: 7.5rem;
+  font-family: SimHei;
+  font-size: 0.28rem;
+  line-height: 0.6rem;
+  .sort-name {
+    width: 1.5rem;
+    margin: 0 0.5rem 0 0.5rem;
+  }
+  .sort-type-take-time {
+    line-height: 0.6rem;
+    margin-left: 1.5rem
+  }
+  .sort-type-reserve-time {
+    margin-left: 0.6rem
+  }
+  img {
+    width: 0.25rem;
+    margin-left: 0.05rem
+  }
+}
+
+.am-accordion .am-accordion-item .am-accordion-header {
+  color: #1e1e1e;
+  height: 1.3rem;
+  line-height: normal;
+  margin: 0 0.22rem;
+  padding-left: 0rem;
+}
+
+.tech-cabinet-body {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding-top: .1rem;
+  overflow: hidden;
+  color: #1e1e1e;
+  background: #f0f0f0;
+  .tech-cabinet-index {
+    height: 1.3rem;
+    width: 1.16rem;
+    float: left;
+    border-right: 0.02rem #f0f0f0 dashed;
+    div {
+      background: url("../../img/num_outside.png") no-repeat;
+      background-size: 100% 100%;
+      height: 0.54rem;
+      width: 0.54rem;
+      line-height: 0.54rem;
+      text-align: center;
+      font-size: 0.22rem;
+      color: #5b87e5;
+      top: 50%;
+      left: 50%;
+      position: relative;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .tech-cabinet-item {
+    height: 1.3rem;
+    width: 5.8rem;
+    display: inline-block;
+    position: relative;
+    span {
+      display: inline-block;
+    }
+    :first-child {
+      display: block;
+      padding: 0.25rem 0 0 0.2rem;
+      font-size: 0.22rem;
+    }
+    :nth-child(2) {
+      font-size: 0.29rem;
+      padding: 0 0 0 0.2rem;
+    }
+    :nth-child(3) {
+      font-size: 0.22rem;
+      padding: 0 0 0 0.2rem;
+      color: #969696;
+    }
+    button {
+      position: absolute;
+      right: 0.2rem;
+      border: 1px solid #5b87e5;
+      background: #ffffff;
+      height: .44rem;
+      width: 1.38rem;
+      text-align: center;
+      line-height: .44rem;
+      border-radius: .04rem;
+      font-size: 14px;
+      color: #5b87e5;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.item-flex {
+  width: 100%;
+  height: 100%;
+}
+
+.index {
+  width: 0.05rem;
+  height: 0.16rem;
+  font-family: SimHei;
+  font-size: 0.22rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0rem;
+  color: #5b87e5;
+}
+
+.car-number {
+  margin-left: 0.28rem;
+  width: 1.21rem;
+  height: 0.29rem;
+  font-family: SimHei;
+  font-size: 0.32rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -0.01rem;
+  color: #1e1e1e;
+}
+
+.car-type {
+  width: 0.7rem;
+  height: 0.25rem;
+  margin-left: 0.11rem;
+  font-family: SimHei;
+  font-size: 0.26rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -0.01rem;
+  color: #928b8b;
+}
+
+.reservation-type {
+  width: 0.51rem;
+  height: 0.25rem;
+  margin-left: 3.4rem;
+  font-family: SimHei;
+  font-size: 0.26rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0rem;
+  color: #1e1e1e;
+}
+
+.my-reservation-first {
+  font-family: SimHei;
+  font-size: 0.28rem;
+  margin-left: 0.73rem;
+}
+
+.my-reservation {
+  margin-top: .22rem;
+  .my-reservation-info {
+    //margin修改弹出子菜单之间的间距
+    margin: 0;
+    height: 0.75rem;
+    background: #fff;
+    .reservation-time {
+      padding-left: .55rem;
+      color: #1e1e1e;
+      p {
+        font-size: 0.32rem;
+        line-height: 0.75rem;
+      }
+    }
+    .car-num {
+      text-align: right;
+      margin-right: 0.56rem; //消除默认初始值padding
+      padding: 0;
+      height: 0.25rem;
+      font-family: SimHei;
+      font-size: 0.26rem;
+      font-weight: normal;
+      font-stretch: normal;
+      letter-spacing: 0.01rem;
+      color: #1e1e1e;
+    }
+  }
+  .my-reservation-info:nth-child(3) {
+    height: 100%;
+    .my-reservation-first {
+      width: 100%;
+      padding-right: 0.5rem;
+    }
+  }
+}
+
+.split-line {
+  position: relative;
+  margin: 0 .22rem;
+  height: .1rem;
+  background: #fff center center no-repeat;
+  background-image: url(../../img/order_bac.png);
+  background-size: 7.16rem .1rem;
+  z-index: 1;
+}
+
+/*子菜单中间
+.my-reservation-info{
+    width: 7.5rem;
+    height: 1.2rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.01rem 0.01rem 0rem 
+        rgba(6, 17, 38, 0.2);
+}*/
+
+.close-dailog {
+  position: absolute;
+  height: 0.32rem;
+  width: 0.32rem;
+  right: 0.32rem;
+  top: 0.32rem;
+  background: url("./../../img/shutdown.png");
+  background-size: 100%;
+}
+
+.dailog-box {
+  margin: 0.04rem;
+  position: relative;
+  span {
+    font-size: 31px;
+    color: black;
+  }
+  .dailog-title {
+    padding: 0.3rem;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 0.3rem;
+  }
+  .dailog-grid {
+    border: 1px solid #5b87e5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .have-car {
+      background: #eeeeee;
+    }
+    .no-car {
+      background: #d7eafc;
+    }
+    .yellow1 {
+      background: #fbd97f;
+    }
+    .yellow2 {
+      background: #f8b500;
+    }
+    .yellow3 {
+      background: #eeeeee;
+    }
+    .dailog-grid-item {
+      border: 1px solid #5b87e5;
+      flex-grow: 1;
+      width: 25%;
+      height: 0.66rem;
+      color: #1e1e1e;
+      position: relative;
+      display: flex;
+      font-size: 0.16rem;
+      align-items: center;
+      justify-content: center;
+      .grid-text {
+        // position: absolute;
+        font-size: 0.16rem;
+        // top:0.15rem;
+        // left: 0.3rem;
+      }
+      span {
+        font-size: 10px;
+        color: #5b87e5;
+        position: absolute;
+        left: 0.05rem;
+        top: 0.01rem;
+      }
+    }
+  }
+}

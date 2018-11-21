@@ -1,0 +1,243 @@
+.order-track-baseinfo{
+    margin: .08rem .22rem 0;
+    height: 1.16rem;
+    background: #fff;
+    .state {
+        text-align: right;
+        padding-right: .42rem;
+        font-size: .32rem;
+    }
+    .Info{
+        padding-left: .55rem;
+        p {
+            font-size: .28rem;
+            line-height: .4rem;
+        }
+        div {
+            color: #8e8e8e;
+            font-size: .18rem;
+            line-height: .4rem;
+        }
+    }
+}
+.order-track-line{
+    position: relative;
+    margin: 0 .22rem; 
+    height: .1rem;
+    background: #fff center center no-repeat;
+    background-image: url(../../img/order_bac.png)  ;
+    background-size:7.16rem .1rem;
+    z-index: 1;
+}
+.order-track-program{
+    position: relative;
+    margin: 0 .22rem; 
+    background: #fff;
+    overflow: hidden;
+    z-index: 100;
+    .beauty{
+        width: 100%;
+        font-size: .24rem;
+        line-height: .62rem;
+        
+        p{
+            margin-left: .55rem;
+        }
+        &.overplus{
+            font-size: .16rem;
+            color: #8e8e8e;
+            line-height: .26rem;
+        }
+        &.special-font-size{
+            font-size: .28rem;
+        }
+    }
+    .order-track-remain {
+        font-size: .22rem;
+        color: #969696;
+        p{
+            position: relative;
+            padding-right: .1rem;
+            height:100%;
+            font-size: .18rem;
+            line-height: 100%;
+            color: #959595;
+            i {
+                position: absolute;
+                right: 0;
+                top:50%; 
+                display: inline-block;
+                width: 100%;
+                height:2px;
+                background: #959595;
+                z-index: 1001;
+            }
+        }
+    }
+    .ordertrack-project {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left:.55rem;
+        padding-right:.42rem;
+       
+    }
+    .Info{
+        width: 100%;
+        .circle{
+            margin: 0 .22rem;
+            width: .11rem;
+            height: .11rem;
+            background: #5a88e5;
+            border-radius: 50%;
+        }
+        .total-money {
+            text-align: right;
+            margin-right: .42rem;
+            p{
+                display: inline-block;
+                line-height: .44rem;
+                &.actual-money{
+                    padding-right: .14rem;
+                    font-size: .26rem;
+                    color: #e42f2f;
+                }
+                &.primary-money{
+                    position: relative;
+                    padding-right: .1rem;
+                    height:100%;
+                    font-size: .18rem;
+                    line-height: 100%;
+                    color: #959595;
+                    i {
+                        position: absolute;
+                        right: 0;
+                        top:50%; 
+                        display: inline-block;
+                        width: 100%;
+                        height:2px;
+                        background: #959595;
+                        z-index: 1001;
+                    }
+                }
+            }
+        }
+    }
+    .order-track-time{
+        line-height: .36rem;
+        .circle2{
+            margin: 0 .22rem;
+            width: .11rem;
+            height: .11rem;
+            background: url(../../img/Garmentwash_icon.png) ;
+            background-size: 100% 100%;
+            border-radius: 50%;
+        }
+    }
+    .overplus{
+        font-size: .16rem;
+        line-height: .26rem;
+    }
+    .pay-btn{
+        display: inline-block;
+        margin-top: .2rem;
+        text-align: right;
+        p{
+            display: inline-block;
+            width: 1rem;
+            height: .5rem;
+            text-align: center !important;
+            line-height: .5rem;
+            color:#fff;
+            background: #5b87de;
+            border-radius: 5px;
+            text-align: right;
+            margin-right: .42rem;
+            box-shadow:0px 1px 2px rgba(33,52,90,0.4) ;
+        }
+    }
+}
+
+.order-track-state {
+    margin: .2rem .22rem 0;
+    padding: .4rem .42rem .86rem .1rem;
+    background: #fff;
+    .order-track-state-box{
+        height: 2rem;
+        color: #bbb;
+        &.active {
+            color: #5a88e5;
+            .right-box {
+                .circle{
+                    background: #5a88e5;
+                }
+            }
+        }
+        &.active2 {
+            color: #e42f2f;
+            .right-box {
+                .circle{
+                    background: #e42f2f;
+                }
+            }
+        }
+        .time{
+            width: 1.1rem;
+            font-size: .18rem;
+            line-height: .28rem;
+        }
+        .right-box{
+            position: relative;
+            width: 100%;
+            margin-left: .4rem;
+            padding-left: .46rem;
+            font-size: .26rem;
+            line-height: .38rem;
+            height: 100%;
+            border-left: 2px solid #bbbbbb;
+            &.last{
+                border-left: none;
+            }
+            .circle {
+                position: absolute;
+                left: -.2rem;
+                width: .4rem;
+                height: .4rem;
+                background: #bbb;
+                border-radius: 50%;        
+            }
+            .scanicon{
+                position: absolute;
+                left: -.2rem;
+                width: .4rem;
+                height: .4rem;
+            }
+            
+            .evaluate{
+                margin-top: .38rem;
+                position: absolute;
+                right: 0;
+                display: inline-block;
+                border: 1px solid #e42f2f;
+                padding:0 .12rem ;
+                font-size: .2rem;
+                border-radius: .05rem;
+                color:#e42f2f;
+            }
+        }
+    }
+}
+
+.order-tarck-info {
+    width: auto !important;
+    background: #fff;
+    margin: 0 0.22rem;
+    margin-top: .2rem;
+    .leftLable {
+        font-size: .28rem;
+    }
+    .rightText {
+        font-size: .26rem;
+    }
+}

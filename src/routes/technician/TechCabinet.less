@@ -1,0 +1,131 @@
+.my-reservation-info {
+  margin: .1rem .22rem 0;
+  height: 1.1rem;
+  background: #fff;
+  .little-box{
+    background: #5a88e5;
+    height: .28rem;
+    width: .06rem;
+  }
+  .reservation-time {
+    flex: 3;
+    padding-left: .31rem;
+    color: #1e1e1e;
+    span {
+      font-family: SimHei;
+      font-size: 0.32rem;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 0rem;
+      letter-spacing: -0.01rem;
+      color: #1e1e1e;
+    }
+  }
+  .car-num {
+    flex: 1;
+    text-align: right;
+    padding-right: 0.3rem;
+    font-size: .26rem;
+    color: rgba(30, 30, 30, 0.5);
+  }
+}
+.order-list {
+  width: 100%;
+  height: .74rem;
+  .leftLable {
+    padding-left: .52rem;
+  }
+  .rightText {
+    text-align: right;
+    padding-right: .42rem;
+  }
+}
+.pay-order-line-dashed {
+  margin: 0 .51rem;
+  height: 0;
+  width: 6.12rem;
+  border-bottom: 0.02rem #f0f0f0 dashed;
+}
+.tech-cabinet-body {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  position: relative;
+  width: 100%;
+  padding-top: .1rem;
+  overflow: hidden;
+  color: #1e1e1e;
+  background: #f0f0f0;
+  .tech-cabinet-index{
+    height: 1.3rem;
+    width: 1.16rem;
+    float: left;
+    border-right: 0.02rem #f0f0f0 dashed;
+    div{
+      background: url("../../img/num_outside.png") no-repeat;
+      background-size: 100% 100%;
+      height: 0.54rem;
+      width: 0.54rem;
+      line-height: 0.54rem;
+      text-align: center;
+      font-size: 0.22rem;
+      color: #5b87e5;
+      top: 50%;
+      left: 50%;
+      position: relative;
+      transform: translate(-50%,-50%);
+    }
+  }
+  .tech-cabinet-item{
+    height: 1.3rem;
+    width: 5.8rem;
+    display: inline-block;
+    position: relative;
+    span{
+      display: inline-block;
+    }
+    :first-child{
+      display: block;
+      padding: 0.25rem 0 0 0.2rem;
+      font-size: 0.22rem;
+    }
+    :nth-child(2){
+      font-size: 0.29rem;
+      padding: 0 0 0 0.2rem;
+    }
+    :nth-child(3){
+      font-size: 0.22rem;
+      padding: 0 0 0 0.2rem;
+      color: #969696;
+    }
+    button{
+      position: absolute;
+      right: 0.2rem;
+      border: 1px solid #5b87e5;
+      background: #ffffff;
+     height: .44rem;
+      width: 1.38rem;
+      text-align: center;
+     line-height: .44rem;
+      border-radius: .04rem;
+      font-size: 14px;
+      color: #5b87e5;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+.complation-button{
+  border: 1px solid #5b87e5;
+  background: #ffffff;
+  height: .44rem;
+  width: 1.38rem;
+  text-align: center;
+  line-height: .44rem;
+  border-radius: .04rem;
+  color: #5b87e5;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%,-50%);
+}

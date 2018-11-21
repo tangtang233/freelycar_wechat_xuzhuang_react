@@ -1,0 +1,59 @@
+.close-dailog{
+  position: absolute;
+  height: 0.32rem;
+  width: 0.32rem;
+  right: 0.32rem;
+  top: 0.32rem;
+  background: url("./../../img/shutdown.png");
+  background-size: 100%;
+}
+.dailog-box{
+  margin:0.04rem;
+  position: relative;
+  span{
+    font-size: 31px;
+    color: black;
+  }
+  .dailog-title{
+    padding: 0.3rem;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 0.3rem;
+  }
+  .dailog-grid{
+    border: 1px solid #5b87e5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .have-car{
+      background: #eeeeee;
+    }
+    .no-car{
+      background: #d7eafc;
+    }
+    .yellow1{
+      background: #fbd97f;
+    }
+    .yellow2{
+      background: #f8b500;
+    }
+    .yellow3{
+      background: #eeeeee;
+    }
+    .dailog-grid-item{
+      border: 1px solid #5b87e5;
+      flex-grow: 1;
+      width: 23%;
+      height: 0.66rem;
+      font-size: 0.1rem;
+      color: #1e1e1e;
+      position: relative;
+      span{
+        font-size: 10px;
+        color: #7b848d;
+        position: absolute;
+        left: 0.05rem;
+        top: 0.01rem;
+      }
+    }
+  }
+}
